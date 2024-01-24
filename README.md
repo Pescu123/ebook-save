@@ -19,12 +19,18 @@ pip install img2pdf
 git clone https://github.com/Pescu123/ebook-save.git
 python ebook_save.py
 ```
-# GUI options
+# GUI
+![image](https://github.com/Pescu123/ebook-save/assets/42257807/da8d9f95-c9c0-48d5-86a1-2dd7f8668cad)
+## Number of pages
+Total number of pages
 
 ## Region
 The region must be in this format x1,y1,x2,y2
 
 x1 and y1 are the upper left corner coordinates and x2, y2 are the lower right corner coordinates
+
+## File name
+Output file name
 
 ## Interval time
 Interval time between screenshots
