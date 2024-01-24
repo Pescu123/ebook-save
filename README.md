@@ -8,38 +8,27 @@ https://user-images.githubusercontent.com/65435560/155957527-df1832fd-963e-40c8-
 pyautogui
 
 img2pdf
+
+tkinter
 # Installation/Setup
 ```bash
+pip install tk
 pip install pyautogui
 pip install img2pdf
 
-git clone https://github.com/tamu1203/download-ebook.git
-python dl_ebook.py page_num [-r REGION] [-p] [-d] [-o OUTPUT_FILE_NAME] [-l] [-i INTERVAL_TIME]
+git clone https://github.com/Pescu123/ebook-save.git
+python ebook_save.py
 ```
-# Command line options
-```bash
-python dl_ebook.py page_num [-r REGION] [-p] [-d] [-o OUTPUT_FILE_NAME] [-l] [-i INTERVAL_TIME]
-```
-## -r --region
-x1,y1,x2,y2 is window's coordinates
+# GUI options
 
-Default value: 580,0,1340,1080
-## -p --pdf
-Output as pdf
+## Region
+The region must be in this format x1,y1,x2,y2
 
-## -d --delete-image
-Delete image files
+x1 and y1 are the upper left corner coordinates and x2, y2 are the lower right corner coordinates
 
-## -o --output-fille-name
-Name of the file to output
+## Interval time
+Interval time between screenshots
 
-## -l --left-scroll
-Scroll to the left
-
-## -i --interval-time
-Interval time before starting the screenshot.
-
-Default value: 10
-
+Default value: 3
 # License
 [MIT license](https://en.wikipedia.org/wiki/MIT_License).
